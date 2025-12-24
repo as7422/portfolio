@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ayanna sharma — portfolio</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Your Name</h1>
+      <p class="tagline">Urban Planning • GIS • Digital Cities • Research</p>
+
+      <nav class="nav">
+        <a href="/" class="nav-link">Home</a>
+        <a href="/about/" class="nav-link">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <h2>selected projects</h2>
+      <p>
+        a mix of research, mapping, and planning work. click any project to view details.
+      </p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <a class="card-link" href="/projects/platform-gentrification/">
+          <img class="card-img" src="assets/img/project1-preview.jpg" alt="Platform gentrification project preview" />
+          <div class="card-body">
+            <h3>Platform Gentrification in NYC</h3>
+            <p>thesis research on social media discourse, symbolic economies, and neighborhood change.</p>
+            <div class="tags">
+              <span class="tag">research</span><span class="tag">qual + quant</span><span class="tag">NYC</span>
+            </div>
+            <span class="button">view project</span>
+          </div>
+        </a>
+      </article>
+
+      <article class="card">
+        <a class="card-link" href="/projects/maps/">
+          <img class="card-img" src="assets/img/project2-preview.jpg" alt="Mapping project preview" />
+          <div class="card-body">
+            <h3>Spatial Risk + Access Mapping</h3>
+            <p>Bivariate choropleths + overlays to analyze inequities in access and socioeconomic risk.</p>
+            <div class="tags">
+              <span class="tag">GIS</span><span class="tag">Python</span><span class="tag">ACS</span>
+            </div>
+            <span class="button">View project</span>
+          </div>
+        </a>
+      </article>
+
+      <article class="card">
+        <a class="card-link" href="/projects/rfp-proposal/">
+          <img class="card-img" src="assets/img/project3-preview.jpg" alt="RFP proposal preview" />
+          <div class="card-body">
+            <h3>RFP</h3>
+            <p>RFP response: harborview</p>
+            <div class="tags">
+              <span class="tag">Writing</span><span class="tag">Housing</span><span class="tag">Sustainability</span>
+            </div>
+            <span class="button">View project</span>
+          </div>
+        </a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Ayanna Sharma · <a href="mailto:as7422@columbia.edu">as7422@columbia.edu</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
